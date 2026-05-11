@@ -165,6 +165,20 @@ article p {
   border-top: 1px solid var(--line);
 }
 
+.catalog {
+  display: grid;
+  gap: 16px;
+  max-width: 720px;
+  padding: 54px 0 80px;
+  border-top: 1px solid var(--line);
+}
+
+.catalog p {
+  color: var(--muted);
+  font-size: 18px;
+  line-height: 1.58;
+}
+
 .note img {
   width: 100%;
   border: 1px solid var(--line);
@@ -204,4 +218,3 @@ article p {
     padding-bottom: 56px;
   }
 }
-
